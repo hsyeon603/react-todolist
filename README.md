@@ -11,9 +11,10 @@
 
 - HTML
 - CSS
-- Javascript
+- Typescript
 - React
 - Redux
+- SCSS
 
 ## Demo
 
