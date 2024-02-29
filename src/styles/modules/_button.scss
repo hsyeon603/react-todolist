@@ -1,0 +1,25 @@
+%button-base {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  text-transform: uppercase;
+  background: #000;
+  color: #fff;
+}
+
+.button-add {
+  @extend %button-base;
+  width: 60px;
+  height: 40px;
+  padding: 0 8px;
+  opacity: 0.4;
+}
+
+.button-remove {
+  @extend %button-base;
+  opacity: 0.2;
+  width: 35px;
+  height: 35px;
+  line-height: 2;
+}
